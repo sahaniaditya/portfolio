@@ -1,52 +1,28 @@
 import React from 'react'
 import covid from "./images/covid.png"
-import movie from "./images/movie.png"
 import wiki from "./images/wiki.jpg"
-import cse from "./images/cse.jpg"
-import drug from "./images/drug.png"
-import satellite from "./images/satellite.jpg"
 import chatbot from "./images/chatbot.png"
 import healthcare from "./images/healthcare.png"
-import notes from "./images/note-taking.png"
 
 const Portfolio = () => {
     const portfolios = [
         {
             id:1,
             src: chatbot,
-            link:"https://github.com/sahaniaditya/CollegeQueriesChatbot",
-            title:"Deep Learning based ChatBot to handle college related queries."
+            link:"https://github.com/shikhar5647/MLOps-AI-Agents",
+            title:"ML-Ops Agents and chatbots using Langchain and Autogen"
         },
         {
             id:2,
             src: healthcare,
-            link:"https://github.com/sahaniaditya/healthcare_anamoly_detection",
+            link:"https://github.com/shikhar5647/healthcare_anamoly_detection",
             title:"Healthcare Anamoly Detection Using Autoencoders."
         },
         {
             id:3,
             src: covid,
-            link:"https://github.com/sahaniaditya/Covid-Detection-from-Chest-X-Ray",
+            link:"https://github.com/shikhar5647/Covid-Detection-from-Chest-X-Ray",
             title:"Covid 19 Detection Using Chest X-ray."
-        },
-        {
-            id:4,
-            src: movie,
-            link:"https://github.com/sahaniaditya/movie-recommendation-system",
-            title:"Movie Recommendation System."
-        },
-        {
-            id:5,
-            src: wiki,
-            link:"https://github.com/sahaniaditya/Wikipedia_Toxic_Comment_Classification",
-            title:"Wikepedia Toxic Comment Classification."
-        },
-        
-        {
-            id:6,
-            src: notes,
-            link:"https://github.com/sahaniaditya/QuillNotes",
-            title:"A Daily Notebook App based on MERN Stack."
         }
         
 

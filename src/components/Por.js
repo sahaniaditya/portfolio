@@ -1,20 +1,14 @@
 import React,{useEffect, useState} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import swc from "./images/swc.jpg";
 import 'swiper/css/pagination';
-import bie from "./images/bie.png"
 import "swiper/css/autoplay";
 import '../styles.css';
 import "./swiperStyle.css"
-import ecell from "./images/ecell.png"
-import youth from "./images/youth.png"
 import google from "./images/google.png"
-import cse from "./images/cse.png"
 import iitj from "./images/iitj.jpg"
 import cdc from "./images/cdc.png"
-import saa from "./images/saa.png"
-import tedx from "./images/tedx.png"
+import raid from "./images/raid.jpg"
 import { Navigation,Pagination,Autoplay} from 'swiper/modules';
 const Por = () => {
     const [slide,setSlide] = useState(3);
@@ -51,34 +45,24 @@ const Por = () => {
         navigation={true}
         className="mySwiper"
       >
-        {/* <SwiperSlide style={styles}>
+        { <SwiperSlide style={styles}>
             <div className='swiper-client-msg'>
                 <p className='w-full'>
-                 Assistant Head, ECELL, IIT Jodhpur
+                 Internship Coordinator , CDC , IITJ 
                 </p>
             </div>
             <div className='img-container'>
               <img src={cdc} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide> */}
+        </SwiperSlide> 
         <SwiperSlide style={styles}>
             <div className='swiper-client-msg'>
                 <p className='w-full'>
-                 Assistant Head, Prometeo, Indian Institute of Technology, Jodhpur 2024
+                 Core Member and Mentor , RAID , IITJ  2024
                 </p>
             </div>
             <div className='img-container'>
-              <img src={iitj} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide style={styles}>
-            <div className='swiper-client-msg shadow-md shadow-gray-600'>
-                <p>
-                Assistant Head, Entrepreneurship Cell, IIT Jodhpur
-                </p>
-            </div>
-            <div className='img-container'>
-              <img src={ecell} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
+              <img src={raid} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
         </SwiperSlide>
         {/* <SwiperSlide style={styles}>
@@ -101,7 +85,7 @@ const Por = () => {
               <img src={saa} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
         </SwiperSlide> */}
-        {/* <SwiperSlide style={styles}>
+        { <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
                 Core Member, Google Developer Students Club
@@ -110,7 +94,7 @@ const Por = () => {
             <div className='img-container'>
               <img src={google} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide> */}
+        </SwiperSlide> }
         {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
@@ -146,7 +130,7 @@ const Por = () => {
         <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
-                All India Rank 2 in Intermediate Examination, ISC Board.
+                99.18 Percentile in JEE Mains 2022 Examinations
                 </p>
             </div>
             <div className='img-container'>
@@ -154,16 +138,7 @@ const Por = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide style={styles}>
-            <div className='swiper-client-msg shadow-md shadow-gray-600'>
-                <p>
-                Assistant Head, E-Conclave IIT Jodhpur, 2024
-                </p>
-            </div>
-            <div className='img-container'>
-              <img src={bie} className="shadow-md  hover:scale-105 duration-200 shadow-gray-600" alt=""/>
-            </div>
-        </SwiperSlide>
+        
         
       </Swiper>
     
